@@ -1,0 +1,177 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Student.master.cs" Inherits="student_MasterPageS" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <script type="text/javascript" language="JavaScript1.2" src="um_menu.js"></script>
+    <style type="text/css">
+        #form1
+        {
+            top: 15px;
+            left: 10px;
+            position: absolute;
+            height: 19px;
+            width: 933px;
+        }
+        .style1
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .style6
+        {
+            height: 11px;
+        }
+        .style7
+        {
+            height: 11px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <table cellpadding="0" cellspacing="0" class="style1" >
+             <tr>
+                 <td colspan="2" width="100%" height="50%">
+                     <asp:Image ID="Image1" runat="server" Height="100%" ImageUrl="~/banner.jpg" 
+                          BorderStyle="None" Width="100%" ImageAlign="Middle" />
+                 </td>
+             </tr>
+             <tr>
+                <td rowspan="2" width="25%">
+                <div style="height: 483px">
+                     <br />
+                         <asp:Label ID="Label1" runat="server"  Text="Google Search " 
+                             ForeColor="#034F87" Font-Size="Medium" Font-Names="Calibri"></asp:Label>
+                    &nbsp;<asp:TextBox ID="TextBox2" runat="server" Width="100px"></asp:TextBox>
+   
+        <asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton2_Click" BorderStyle="None" 
+                             Font-Underline="False"><asp:Image ID="Image4" runat="server" ImageUrl="~/search.png"  
+            style="z-index: 1; left: 138px; top: 46px;  width: 18px; height: 22px" /></asp:LinkButton><hr />
+        
+        
+        
+                     
+                     
+                         <asp:HyperLink ID="HyperLink1" runat="server" Font-Names="Calibri" 
+                             ForeColor="#034F87">Latest News
+                         </asp:HyperLink>
+                         <hr />
+                         <asp:Label ID="Label2" ForeColor="#034F87" Font-Size="Medium" Font-Names="Calibri" runat="server" Text="F.A.Q. >>"></asp:Label>
+                     
+                     
+                     </div>
+
+                
+                </td>
+                <td width="75%" align="right" dir="ltr" class="style7">
+      <script type="text/javascript" language="JavaScript1.2">
+BuildLayer('h','','','','250','250','','','','2','0','0px Solid #ACA899','0px Solid #ACA899','0px Solid #ACA899','0px Solid #ACA899','right','transparent','','1','1','','Filter:none(Duration=0.5)','','#C0C0C0','0','Default','Pointer','','100','0','#FFFFFF')
+SwapDiv('wme20','','','irishdiamond07.gif','blank.gif','20','5','blank.gif','blank.gif','0','0','1','1','Arial','Arial','8pt','8pt','normal','normal','transparent','transparent','normal','normal','none','none','transparent','transparent','blank.gif','blank.gif','0','0','0','0','none','none','none','none','none','none','none','none','top','left','','','','_self','','','2','blank.gif','blank.gif','auto','auto','0','0','0')
+SwapDiv('wme21','wme20','Home','blank.gif',_,'0','0',_,_,_,_,'20','105',_,_,_,_,_,_,'#000000','#FFFFFF',_,_,_,_,'#FFFFFF','#FFFFFF','irishdiamond08.gif','irishdiamond08.gif','1','1','1','1','0px Solid #FFFFFF','0px Solid #FFFFFF','0px Solid #FFFFFF','0px Solid #FFFFFF','0px Solid #3A4057','0px Solid #3A4057','0px Solid #3A4057','0px Solid #3A4057','middle',_,'HomePage1.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme25','wme20',_,'irishdiamond09.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme18','wme20',_,'blank.gif',_,'0','0',_,_,_,_,'3','3',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme4','wme20',_,'irishdiamond01.gif',_,_,_,_,_,_,_,'auto','auto',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme1','wme21','Exam Catagory',_,_,_,_,'arrow.gif','arrow.gif','7','7',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'irishdiamond02.gif','irishdiamond02.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,'',_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme16','','5','v','0','0','1','0','0px Solid #ACA899','0px Solid #ACA899','0px Solid #ACA899','0px Solid #ACA899','transparent','','1','1','','Filter:none(Duration=0.5)','','#C0C0C0','0','100')
+SwapDiv('wme30','wme20',_,'irishdiamond10.gif',_,'27','109',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme15','wme1','GRE',_,_,_,_,_,_,_,_,'23','auto',_,_,_,_,_,_,_,_,_,_,_,_,_,_,'irishdiamond11.gif','irishdiamond11.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,'center',_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme50','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme49','wme21','General Information',_,_,_,_,_,_,_,_,'23','auto',_,_,_,_,_,_,_,_,_,_,_,_,_,_,'irishdiamond11.gif','irishdiamond11.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,'center','/GreInfo.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme53','wme49','Study Material',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'/SgreM.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme54','wme49','Mock Test',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./GRE/Tgre.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme55','wme49','Download',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'bottom',_,'/Dgre.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme104','wme18',_,_,_,_,_,_,_,_,_,'1','1',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme31','wme15','IELTS',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme57','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme56','wme49',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./IELTS/IeltsInfo.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme58','wme53',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./IELTS/SieltsM.apsx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme60','wme54',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./IELTS/Tielts.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme59','wme49','Download',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./IELTS/Dielts.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme32','wme15','TOEFL',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme62','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme61','wme49',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'TOEFL/ToeflInfo.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme65','wme53',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'TOEFL/StoeflM.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme64','wme54',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./TOEFL/Ttoefl.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme63','wme59',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./TOEFL/Dtoefl.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme42','wme15','SAT',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme67','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme66','wme49',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'',_,'./SAT/SatInfo.aspx',_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme70','wme53',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./SAT/SsatM.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme69','wme54',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./SAT/Tsat.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme68','wme59',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./SAT/Dsat.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme47','wme15','CAT',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme72','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme71','wme49',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./CAT/CatInfo.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme75','wme53',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./CAT/ScatM.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme74','wme54',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./CAT/Tcat.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme73','wme59',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./CAT/Dcat.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme48','wme15','GATE',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme77','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme76','wme49',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./GATE/GateInfo.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme80','wme53',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./GATE/SgateM.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme79','wme54',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./GATE/Tgate.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme78','wme59',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./GATE/Dgate.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme34','wme30',_,'irishdiamond12.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme6','wme4',_,'irishdiamond03.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme8','wme18',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme10','wme20',_,'irishdiamond04.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme2','wme1','Sign In',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'irishdiamond05.gif','irishdiamond05.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme44','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme39','wme30',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme35','wme49','Sign in as Student',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./student/StudentLogin.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme36','wme49','Sign in as Faculty',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./Faculty/FacultyLogin.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme82','wme49','Admin',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./Admin/AdminLogin.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme113','wme34',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme119','wme20',_,'irishdiamond06.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme118','wme18',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme117','wme20',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme120','wme1','Sign Up',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'irishdiamond08.gif','irishdiamond08.gif',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'0',_,_,_,_,_,_,_)
+FreeLayer('wme123','wme16',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+SwapDiv('wme129','wme30',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+SwapDiv('wme122','wme49','Sign Up as Student',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./student/FormSt.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme124','wme49','Sign Up as Faculty',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'./Faculty/FormFaculty.aspx',_,_,_,_,_,'3',_,_,_,_,_,_,_)
+SwapDiv('wme130','wme34',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'#000000',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+InitDiv();
+SwapDiv('wme121','wme25',_,_,_,_,_,_,_,_,_,'2','2',_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,'2',_,_,_,_,_,_,_)
+Filter('True','','')
+HideDiv();
+</script>
+
+                
+                </td>
+             </tr>
+             <tr>
+                <td width="75%">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>             
+             </tr>
+             <tr>
+                 <td class="style6"  colspan="2" width="100%" 
+                     style="color: #BCFAF2; background-color: #000000" align="center">
+                     <asp:LinkButton ID="LinkButton1" runat="server" BorderStyle="None" Font-Underline="false" 
+                         Font-Names="Calibri" ForeColor="#CCFFCC">Contact Us</asp:LinkButton>
+                     
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:LinkButton ID="LinkButton2" runat="server" BorderStyle="None" Font-Underline="false"
+                         Font-Names="Calibri" ForeColor="#CCFFCC">About Us</asp:LinkButton>
+                     </td>
+             </tr>
+         </table>
+    </div>
+    </form>
+</body>
+</html>
+
